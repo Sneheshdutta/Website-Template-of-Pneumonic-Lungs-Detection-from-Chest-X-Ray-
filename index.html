@@ -1,0 +1,145 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>LungTreatment with DeepLearning</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Macondo" rel="stylesheet">
+    <link href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link href="{{ url_for('static', filename='css/main.css') }}" rel="stylesheet">      
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <a class="navbar-brand" href="#">
+        <img src="https://lungtreatment.scikn.in/images/lungs.png" width="30" height="30" class="d-inline-block align-top" alt="">
+        LungTreatment
+      </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="https://lungtreatment.scikn.in">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://lungtreatment.herokuapp.com">Check Lung</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Project Report</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+          </ul>
+          <a href="https://github.com/Sneheshdutta/Pneumonic-Lungs-Detection-from-Chest-X-Ray-with-ML">
+            <button class="btn btn-outline-light my-2 my-sm-0">Visit Github</button>
+          </a>
+        </div>
+      </nav>
+    <div class="container-fluid" style="margin-bottom: 5em; margin-top: 1em;">
+
+      <img align="center"src="https://lungtreatment.scikn.in/images/h1.png" width="100%vh" height="auto" alt="LungTreatment">
+      <br/>
+      <div align="center" style="margin: 1em;">
+      <h4 align="center"><strong>ACKNOWLEDGEMENTS</strong></h4>
+      <p style="text-align: justify;">It is a great pleasure for me/us to express my/our earnest and great appreciation to <strong>Dr. Ivy Majumdar</strong>, my project guide. I/We am/are very much grateful to him/her for
+        his/her kind guidance, encouragement, valuable suggestions, innovative ideas, and
+        supervision throughout this project work, without which the completion of the project
+        work would have been difficult one. I/We would like to express my/our thanks to the Head of the Department, Dr. Ivy
+        Majumdar for her active support. I/We also express my/our sincere thanks to all the teachers of the department for their
+        precious help, encouragement, kind cooperation and suggestions throughout the
+        development of the project work. I/We would like to express my/our gratitude to the library staff and laboratory staff for
+        providing me/us with a congenial working environment.</p>
+
+        
+
+        <div class="card-deck">
+          <div class="card">
+             
+            <img class="card-img-top" src="https://lungtreatment.scikn.in/images/1.png" alt="Card image cap">           
+            <div class="card-body">
+              <h5 class="card-title">Step 1</h5>
+              <p class="card-text">Take a photograph of your lung X-Ray and save it. Then open our deep learning app and click on the <strong>Select Image</strong> button to upload your image.</p>
+            </div>
+          </div>
+          <div class="card">
+            
+            <img class="card-img-top" src="https://lungtreatment.scikn.in/images/2.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Step 2</h5>
+              <p class="card-text">Select a good quality clear picture of your chest X-Ray. You can take the picture from your mobile, but make sure the background will be white.</p>
+            </div> 
+            
+          </div>
+          <div class="card">            
+            <img class="card-img-top" src="https://lungtreatment.scikn.in/images/3.png" alt="Card image cap">        
+            <div class="card-body">
+              <h5 class="card-title">Step 3</h5>
+              <p class="card-text">Click on the predict! button to see your result. Please wait for some times. As, our system will upload your image and then it will run the model to show result.</p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="https://lungtreatment.scikn.in/images/4.png" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Step 4</h5>
+              <p class="card-text">Your result will appear here. Please remember in case of uploading any wrong image (not a chest X-Ray) it will show any random result.</p>
+            </div>
+            
+          </div>
+        </div>
+
+<br>
+
+
+
+
+      <div class="card text-center">
+        <div class="card-header">
+          Run the app from here
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">Pneumonic Lungs Detection from Chest X-Ray</h5>
+          <p class="card-text">In chest X-ray images,
+            appearance of pneumonia can be hazy and can be misapprehended with other diagnoses. The
+            evaluation of chest X-Ray specifically in case of Pneumonia can be misleading because many
+            other problems like congestive heart failure, lung scarring etc. can mimic a Pneumonia. This
+            is the main reason behind the misclassification of the X-ray images in the dataset. Thus, the
+            task is challenging and the development of an algorithm for detecting thoracic diseases like
+            Pneumonia would increase the accessibility of clinical settings in remote areas as well. In this
+            study, we evaluated the performance of different variants of pre-trained CNN models
+            followed by different classifiers for classifying abnormal and normal chest X-Rays.</p>
+          <a href="https://lungtreatment.herokuapp.com" class="btn btn-primary btn-lg">Use our Deep Learning Model</a>
+        </div>
+        <div class="card-footer text-muted">
+          You are using the web-version of this app.
+        </div>
+      </div>
+
+    </div>
+    <div>
+      <img align="center"src="https://lungtreatment.scikn.in/images/comingsoon.png" width="100%vh" height="auto" alt="LungTreatment">
+    </div>
+    </div>
+  
+    <footer class="bg-primary text-center text-white fixed-bottom" >
+        
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: bg-primary;">
+          © 2021 :
+          <a class="text-white" href="https://lungtreatment.scikn.in"><strong>LungTreatment </strong>| All Rights Researved</a>
+        </div>
+        <!-- Copyright -->
+      
+        <script src="{{ url_for('static', filename='js/main.js') }}" type="text/javascript"></script> 
+</footer>
+</body>
+</html>
