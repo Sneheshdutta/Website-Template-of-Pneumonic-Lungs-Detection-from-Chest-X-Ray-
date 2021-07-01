@@ -1,0 +1,129 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pneumonia Detection</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Macondo" rel="stylesheet">
+    <link href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="https://lungtreatment.scikn.in/images/lungs.ico">
+    <script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link href="{{ url_for('static', filename='css/main.css') }}" rel="stylesheet">      
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <a class="navbar-brand" href="#">
+        <img src="https://lungtreatment.scikn.in/images/lungs.png" width="30" height="30" class="d-inline-block align-top" alt="">
+        LungTreatment
+      </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="https://lungtreatment.scikn.in">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="https://lungtreatment.herokuapp.com">Check Lung</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Project Report</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+          </ul>
+          <a href="https://github.com/Sneheshdutta/Pneumonic-Lungs-Detection-from-Chest-X-Ray-with-ML">
+            <button class="btn btn-outline-light my-2 my-sm-0">Visit Github</button>
+          </a>
+        </div>
+      </nav>
+    <div class="container-fluid" style="margin-bottom: 5em;">
+        <div >
+        <br>
+        <img align="center"src="https://lungtreatment.scikn.in/images/lungbannar.png" width="100%vh" height="auto" alt="LungTreatment">
+        <br>
+
+  <div align= "center">
+    <form id="upload-file" method="post" enctype="multipart/form-data" style="margin: 1em;">
+        <label for="imageUpload" class="upload-label">
+            Select Image
+        </label>
+        <input type="file" name="file" id="imageUpload" accept=".png, .jpg, .jpeg">
+    </form>
+
+    <div class="image-section" style="display:none;">
+        <div class="img-preview">
+            <div id="imagePreview">
+            </div>
+        </div>
+        <div>
+            <button type="button" class="btn btn-primary btn-lg " id="btn-predict">Predict!</button>
+        </div>
+    </div>
+
+    <div class="loader" style="display:none;"></div>
+
+    <h3 id="result">
+        <span> </span>
+    </h3>
+</div>
+</div>
+  <div align="center">
+    <img src="https://lungtreatment.scikn.in/images/report.png" width="40%vh" height="auto" alt="LungTreatment">
+  </div>
+
+  
+
+  <nav  id="navbar-example2" class="navbar navbar-light bg-light" style="margin-left: 5%; margin-right: 5%;">
+    <h2 align="center" class="navbar-brand" href="#"><strong>How Our App Analyses Your X-Ray</strong></h2>
+  </nav>
+  <div data-spy="scroll" data-target="#navbar-example2" data-offset="0" style="margin-left: 7%; margin-right: 7%; margin-top: 1em;">
+    <h4>Introduction</h4>
+    <p>The convolutional neural network (CNN) is a class of deep learning neural networks. CNNs
+      represent a huge breakthrough in image recognition. They’re most commonly used to analyze
+      visual imagery and are frequently working behind the scenes in image classification.
+      <h4>Basic Architecture</h4>
+      There are two main parts to a CNN architecture. A convolution tool that separates and identifies the various features of the image for analysis
+      in a process called as Feature Extraction
+      A fully connected layer that utilizes the output from the convolution process and predicts the
+      class of the image based on the features extracted in previous stages. The primary goal of using Convolutional Neural Network in most of the image classification
+      tasks is to reduce the computational complexity of the model which is likely to increase if the
+      input are images . The original 3-channel images were resized pixels to reduce the heavy
+      computation and for faster processing. All of the further techniques has been applied over
+      these downsized images.</p>
+      <h4>Predection Process</h4>
+      <p>A series of convolution and pooling operations is performed on the input image, which is
+        followed by a single or multiple fully connected layers. The output layer depends on the
+        operations being performed. For multiclass classification, the output layer is a softmax layer.
+        The main disadvantage with deeper CNNs is vanishing gradients, which can be solved by
+        using residual networks introduced in the following section.</p>
+  </div>
+
+  
+
+  <img align="center"src="https://lungtreatment.scikn.in/images/comingsoon.png" width="100%vh" height="auto" alt="LungTreatment">
+
+</div>
+  
+    <footer class="bg-primary text-center text-white fixed-bottom" >
+        
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: bg-primary;">
+          © 2021 :
+          <a class="text-white" href="https://lungtreatment.scikn.in"><strong>LungTreatment </strong>| All Rights Researved</a>
+        </div>
+        <!-- Copyright -->
+      
+        <script src="{{ url_for('static', filename='js/main.js') }}" type="text/javascript"></script> 
+</footer>
+</body>
+</html>
