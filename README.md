@@ -24,6 +24,14 @@ Contains the template of the website of Pneumonic-Lungs-Detection-from-Chest-X-R
 
 ## Steps
 
-[1] hi
+- Step 1
+<img align="left" src="https://github.com/Sneheshdutta/Website-Template-of-Pneumonic-Lungs-Detection-from-Chest-X-Ray-/blob/main/Screenshots/Screenshot%20(68).png" />
+</br>
+In the first step or website will show you a quick direction on how to to use this application. Where you will see a button to select your image of chest X-Ray, of which you want to check. so you should keep ready a good and clear image of your chest X Ray, that you will
+upload hair.
+</br>
+
+- Step 2
+-<img align="left" src="https://github.com/Sneheshdutta/Website-Template-of-Pneumonic-Lungs-Detection-from-Chest-X-Ray-/blob/main/Screenshots/Screenshot%20(68).png" />
 
 [website]: https://lungtreatment.scikn.in
