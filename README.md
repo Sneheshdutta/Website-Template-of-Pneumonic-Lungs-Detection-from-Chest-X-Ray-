@@ -3,4 +3,4 @@ Contains the template of the website of Pneumonic-Lungs-Detection-from-Chest-X-R
 
 ## Technology Stack
 
-[<img align="left" alt="gadgetguys.in" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />][website]
+[<img align="left" alt=" " width="60px" hight="auto" src="https://github.com/Sneheshdutta/Website-Template-of-Pneumonic-Lungs-Detection-from-Chest-X-Ray-/blob/main/icons/Bootstrap_logo.svg.png" />]
