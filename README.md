@@ -25,13 +25,35 @@ Contains the template of the website of Pneumonic-Lungs-Detection-from-Chest-X-R
 ## Steps
 
 - Step 1
-<img align="left" src="https://github.com/Sneheshdutta/Website-Template-of-Pneumonic-Lungs-Detection-from-Chest-X-Ray-/blob/main/Screenshots/Screenshot%20(68).png" />
+<img align="left" src="https://github.com/Sneheshdutta/Website-Template-of-Pneumonic-Lungs-Detection-from-Chest-X-Ray-/blob/main/Screenshots/1.jpg" />
 </br>
+<p>
 In the first step or website will show you a quick direction on how to to use this application. Where you will see a button to select your image of chest X-Ray, of which you want to check. so you should keep ready a good and clear image of your chest X Ray, that you will
-upload hair.
+upload hair.</p>
 </br>
 
 - Step 2
--<img align="left" src="https://github.com/Sneheshdutta/Website-Template-of-Pneumonic-Lungs-Detection-from-Chest-X-Ray-/blob/main/Screenshots/Screenshot%20(68).png" />
+<img align="left" src="https://github.com/Sneheshdutta/Website-Template-of-Pneumonic-Lungs-Detection-from-Chest-X-Ray-/blob/main/Screenshots/2.jpg" />
+</br>
+<p>
+  After clicking on the select image button, I will see your gallery or File Manager will be open from here you will able to select the image you want to upload and check here. so select the image carefully.</p>
+ </br>
+  
+ - Step 3
+ <img align="left" src="https://github.com/Sneheshdutta/Website-Template-of-Pneumonic-Lungs-Detection-from-Chest-X-Ray-/blob/main/Screenshots/3.jpg" />
+</br>
+<p>After the selection of your image, you will able to see that your selected image has appeared on our website. Now you will able to see there is a predict button just below your selected image. The button will allow uploading the image to our server so that our model can process your image and take its decision whether your chest X-Ray image is normal or it has a chance of having pneumonia. in some cases, you may wait for a bit longer as our system is processing your image so that it can give you the perfect result from its side.</p>
+</br>
+
+- Step 4
+<img align="left" src="https://github.com/Sneheshdutta/Website-Template-of-Pneumonic-Lungs-Detection-from-Chest-X-Ray-/blob/main/Screenshots/4.jpg" />
+</br>
+<p>
+  After some time you will able to see our model has analyzed your image and provided its result just below your uploaded image. Though it is a completely automated process and does not require any doctor to make a decision whether the uploaded image affected by pneumonia or a normal one, we strongly recommend That before taking any further decision one should consult any doctor.</p>
+  </br>
+
+
+
+
 
 [website]: https://lungtreatment.scikn.in
