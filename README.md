@@ -3,7 +3,7 @@ Contains the template of the website of Pneumonic-Lungs-Detection-from-Chest-X-R
 
 ## Project Website
 
-[![Website](https://img.shields.io/website?label=lungtreatment.scikn.in&style=for-the-badge&url=https%3A%2F%2Flungtreatment.scikn.in)](https://lungtreatment.scikn.in)
+[![Website](https://img.shields.io/website?label=lungtreatment.scikn.in&style=for-the-badge&url=https%3A%2F%2Fscikn.in)](https://lungtreatment.scikn.in)
 </br>
 
 ## Technology Stack
