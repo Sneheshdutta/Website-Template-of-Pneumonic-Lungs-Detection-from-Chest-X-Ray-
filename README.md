@@ -4,6 +4,12 @@ Contains the template of the website of Pneumonic-Lungs-Detection-from-Chest-X-R
 ## Technology Stack
 
 <img align="left" width="60px" hight="auto" src="https://github.com/Sneheshdutta/Website-Template-of-Pneumonic-Lungs-Detection-from-Chest-X-Ray-/blob/main/icons/Bootstrap_logo.svg.png" />
-<br>
-<p align="left">To implement some of the design have also used the bootstrap starter library, to make
-our work more easier and to save some time.</p>
+<img align="left" width="60px" hight="auto" src="https://github.com/Sneheshdutta/Website-Template-of-Pneumonic-Lungs-Detection-from-Chest-X-Ray-/blob/main/icons/html-5.png" />
+<img align="left" width="60px" hight="auto" src="https://github.com/Sneheshdutta/Website-Template-of-Pneumonic-Lungs-Detection-from-Chest-X-Ray-/blob/main/icons/css.png" />
+
+## Code Editor Used
+
+<img align="left" width="60px" hight="auto" src="https://github.com/Sneheshdutta/Website-Template-of-Pneumonic-Lungs-Detection-from-Chest-X-Ray-/blob/main/icons/visual-studio.png" />
+
+
+
