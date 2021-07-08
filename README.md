@@ -32,7 +32,7 @@ upload hair.</p>
 </br>
 <img align="left" src="https://github.com/Sneheshdutta/Website-Template-of-Pneumonic-Lungs-Detection-from-Chest-X-Ray-/blob/main/Screenshots/1.jpg" />
 </br>
-
+<p>  </p>
 
 - Step 2
 
@@ -41,7 +41,7 @@ upload hair.</p>
  </br>
 <img align="left" src="https://github.com/Sneheshdutta/Website-Template-of-Pneumonic-Lungs-Detection-from-Chest-X-Ray-/blob/main/Screenshots/2.jpg" />
 </br>
-
+<p>  </p>
   
  - Step 3
 
@@ -49,7 +49,7 @@ upload hair.</p>
 </br>
  <img align="left" src="https://github.com/Sneheshdutta/Website-Template-of-Pneumonic-Lungs-Detection-from-Chest-X-Ray-/blob/main/Screenshots/3.jpg" />
 </br>
-
+<p>  </p>
 
 - Step 4
 
